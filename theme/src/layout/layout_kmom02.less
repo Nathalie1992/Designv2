@@ -1,0 +1,177 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+ //
+ // .rm-desktop ul {
+ //     display: none;
+ // }
+ //
+ // /* Hide responsive/mobile menu, leave this to kmom02 */
+ // .rm-navbar-max {
+ //     display: none;
+ // }
+/**
+ * General layout
+ */
+
+ /**
+  * Header
+  */
+
+
+ .inner-wrap-header {
+     background-color: @bgColorBody;
+     //overflow: auto;
+     .clearfix()
+ }
+
+.inner-wrap-header {
+    max-width: 100%;
+}
+
+.region-header-col-1{
+    width: 20%;
+    float: left;
+}
+.region-header-col-3{
+    width: 60%
+    float: left;
+    text-align: center;
+    background-color: #92c0ec;
+}
+
+.outer-wrap-header {
+    display: block;
+}
+
+
+
+
+/**
+ * layout
+ */
+.wrap-all {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: @bgColorBody;
+
+}
+
+.site-logo {
+    display: none;
+
+}
+
+/**
+ * article
+ */
+
+
+
+/**
+*main and sidebar layout_kmom02
+*/
+
+.inner-wrap-main {
+    .clearfix();
+}
+
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+    overflow: auto;
+    float: left;
+
+}
+
+.region-main {
+    width: 70%;
+    float: left;
+    overflow: auto;
+
+    &.has-sidebar {
+        padding: 20px;
+        width: 60%;
+
+    }
+
+    &.has-sidebar-left-has-sidebar-right {
+        width: 60%;
+    }
+}
+
+.region-sidebar-left-has-sidebar-left-has-sidebar,
+.region-sidebar-right-has-sidebar-left {
+    width: 20%;
+}
+
+.region-sidebar-right {
+    width: 30%;
+    float: right;
+}
+
+
+/**
+*byline
+*/
+
+.author-byline {
+    width: 600px;
+    border: groove;
+    overflow: auto;
+}
+
+.figure-left {
+    float: left;
+    width: 150px;
+    margin: 0;
+}
+
+
+/**
+*footer
+*/
+.footer-column {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+.inner-wrap-footer {
+    padding: 20px;
+}
+
+.outer-wrap-footer {
+    padding: 5px;
+    max-width: 1000px;
+    background-color: #92c0ec;
+}
+
+
+
+/**
+*links
+*/
+
+a {
+    font-family: verdana;
+}
+
+
+
+a:link,
+a:visited {
+    color: black;
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+ul {
+    list-style-type: none;
+}
