@@ -5013,21 +5013,12 @@ img {
   display: block;
 }
 .wrap-all {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   background-color: #DCF0FF;
 }
 .site-logo {
   display: none;
-}
-.footer-column {
-  width: 30%;
-  float: left;
-  padding: 10px;
-}
-.outer-wrap-footer {
-  padding: 5px;
-  max-width: 1000px;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
